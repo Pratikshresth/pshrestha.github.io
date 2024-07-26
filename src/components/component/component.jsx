@@ -325,7 +325,7 @@ export function Component() {
                 </svg>
               </Link>
               <Link href="https://github.com/Pratikshresth" className="text-sm font-medium text-muted-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
-              <i class="bi bi-github custom-icon"></i>
+              <i className="bi bi-github custom-icon"></i>
               </Link>
             </div>
           </div>
