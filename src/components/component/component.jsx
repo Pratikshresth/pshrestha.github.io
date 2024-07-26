@@ -16,7 +16,7 @@ export function Component() {
         <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 bg-black/70">
           <Link href="#" className="flex items-center gap-2 transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
             <LaptopIcon className="h-6 w-6 text-primary" />
-            <span className="font-bold tracking-tight text-foreground text-lg"><b>PRATIK SHRESTHA</b></span>
+            <span className="font-bold tracking-tight text-foreground text-xl"><b>PRATIK SHRESTHA</b></span>
           </Link>
           <nav className="hidden space-x-4 md:flex">
             <Link href="#about" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
