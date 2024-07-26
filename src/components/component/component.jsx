@@ -16,29 +16,29 @@ export function Component() {
         <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 bg-black/70">
           <Link href="#" className="flex items-center gap-2 transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
             <LaptopIcon className="h-6 w-6 text-primary" />
-            <span className="font-bold tracking-tight text-foreground">Pratik Shrestha</span>
+            <span className="font-bold tracking-tight text-foreground text-lg"><b>PRATIK SHRESTHA</b></span>
           </Link>
           <nav className="hidden space-x-4 md:flex">
-            <Link href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
+            <Link href="#about" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>About</b>
             </Link>
-            <Link href="#projects" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
+            <Link href="#projects" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Projects</b>
             </Link>
-            <Link href="#skills" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
+            <Link href="#skills" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Skills</b>
             </Link>
-            <Link href="#awards" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
+            <Link href="#awards" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Awards</b>
             </Link>
             <Link href="#colloboration" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Colloborations</b>
             </Link>
-            <Link href="#contact" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
+            <Link href="#contact" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Contact</b>
             </Link>
           </nav>
-          <Button variant="outline" size="sm" className="md:hidden transition-transform duration-500 ease-in-out transform hover:scale-105" onClick={() => {}}>
+          <Button variant="outline" size="lg" className="md:hidden transition-transform duration-500 ease-in-out transform hover:scale-105" onClick={() => {}}>
             <MenuIcon className="h-5 w-5" />
           </Button>
         </div>
