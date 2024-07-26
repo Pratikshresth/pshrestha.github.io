@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies without optional packages
         run: npm install --omit=optional
 
-      - name: Build and export project
-        run: npm run build && npm run export
+      - name: Build project
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
