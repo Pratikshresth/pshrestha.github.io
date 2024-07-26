@@ -4,7 +4,6 @@ import Head from 'next/head';
 import Layout from '../src/app/layout'; // Import your layout component
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-
 function MyApp({ Component, pageProps }) {
   return (
     <>
