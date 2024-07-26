@@ -63,7 +63,7 @@ export function Component() {
               </div>
             </div>
             <div className="relative">
-              <Image src="/intro1.png" width={500} height={200} alt="Hero Image" className="intro_pic mx-auto rounded-lg shadow-xl transition-transform duration-500 ease-in-out transform hover:scale-105" />
+              <Image src="/pshrestha.github.io/intro1.png" width={500} height={200} alt="Hero Image" className="intro_pic mx-auto rounded-lg shadow-xl transition-transform duration-500 ease-in-out transform hover:scale-105" />
             </div>
           </div>
         </section>
@@ -82,7 +82,7 @@ export function Component() {
             </div>
             <div className="order-1 md:order-2">
               <Image
-                src="/me.jpg"
+                src="/pshrestha.github.io/me.jpg"
                 width={600}
                 height={600}
                 alt="About Image"
@@ -252,7 +252,7 @@ export function Component() {
               <div className="rounded-lg bg-muted p-4 text-center transition-transform duration-300 ease-in-out transform hover:-translate-y-1">
                 <Link href="https://www.project-owl.com/" passHref>
                   <Image 
-                    src="/image.png" 
+                    src="/pshrestha.github.io/image.png" 
                     alt="Logo" 
                     width={110} 
                     height={60} 
@@ -267,7 +267,7 @@ export function Component() {
                 </Link>
                 <div className="mt-4">
                   <Image 
-                    src="/softmesh.png" 
+                    src="/pshrestha.github.io/softmesh.png" 
                     alt="SoftMesh" 
                     width={110} 
                     height={160} 
