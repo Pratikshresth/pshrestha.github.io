@@ -31,7 +31,7 @@ export function Component() {
             <Link href="#awards" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Awards</b>
             </Link>
-            <Link href="#colloboration" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
+            <Link href="#colloboration" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
               <b>Colloborations</b>
             </Link>
             <Link href="#contact" className="text-lg font-medium text-muted-foreground hover:text-foreground transition-transform duration-300 ease-in-out transform hover:-translate-y-1" prefetch={false}>
