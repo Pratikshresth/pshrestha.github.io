@@ -1,6 +1,7 @@
 // pages/index.js
 import React from 'react';
-import { Component } from '../src/components/component/Component'; // Correct the import path
+import Component from '../src/components/component';
+
 
 const HomePage = () => {
   return (
