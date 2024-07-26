@@ -1,6 +1,6 @@
 // src/components/component/Component.jsx
 import Link from 'next/link';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../ui/card';
 import { Label } from '../ui/label';
 import { Input } from '../ui/input';
