@@ -3,6 +3,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/pshrestha.github.io',
+  assetPrefix: '/pshrestha.github.io/',
 };
 
 export default nextConfig;
