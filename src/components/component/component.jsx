@@ -431,3 +431,4 @@ function award(props) {
     </svg>
   );
 }
+export default Component;
