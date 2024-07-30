@@ -108,7 +108,7 @@ export function Component() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between" onclick="window.open('https://github.com/Pratikshresth/IoT-Malware-Detection-Deep_learning', '_blank')">
                   <div className="flex items-center gap-2">
                     <Image src="https://img.icons8.com/?size=100&id=rAGNbokDz2eq&format=png&color=000000" alt="Deep Learning Icon" className="h-6 w-6" />
                     <span className="text-sm font-medium text-muted-foreground">Deep Learning</span>
@@ -122,19 +122,19 @@ export function Component() {
             </Card>
             <Card className="transition-transform duration-500 ease-in-out transform hover:scale-105">
               <CardHeader>
-                <CardTitle>Penetration Testing</CardTitle>
+                <CardTitle>Network Intrusion Detection System</CardTitle>
                 <CardDescription>
-                  Conducted a comprehensive penetration test for a client's network infrastructure, identifying and mitigating critical security vulnerabilities.
+                  This project aims to build a Network Intrusion Detection System (NIDS) using Machine Learning. The NIDS is trained to detect intrusions or malicious activities on a network. The dataset used for training is the KDD Cup 1999 dataset, which is publicly available. This dataset is a version of the DARPA dataset made to train Intrusion Detection Systems.
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between" onclick="window.open('https://github.com/Pratikshresth/Intrusion_Detection_RF', '_blank')">
                   <div className="flex items-center gap-2">
-                    <NetworkIcon className="h-6 w-6 text-primary" />
-                    <span className="text-sm font-medium text-muted-foreground">Network Infrastructure</span>
+                    <Image src="https://img.icons8.com/?size=100&id=16650&format=png&color=000000" alt="ID Icon" className="h-6 w-6" />
+                    <span className="text-sm font-medium text-muted-foreground">Machine Learning</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CalendarDaysIcon className="h-6 w-6 text-primary" />
+                    <i class="bi bi-calendar4-week"></i>
                     <span className="text-sm font-medium text-muted-foreground">2021</span>
                   </div>
                 </div>
@@ -148,10 +148,10 @@ export function Component() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between" onclick="window.open('https://github.com/Pratikshresth/IoT-Malware-Detection-Deep_learning', '_blank')">
                   <div className="flex items-center gap-2">
                     <ShieldIcon className="h-6 w-6 text-primary" />
-                    <span className="text-sm font-medium text-muted-foreground">Incident Response</span>
+                    <span className="text-sm font-medium text-muted-foreground">SoftMesh</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CalendarDaysIcon className="h-6 w-6 text-primary" />
