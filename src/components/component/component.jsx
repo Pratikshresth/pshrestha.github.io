@@ -102,19 +102,19 @@ export function Component() {
           <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <Card className="transition-transform duration-500 ease-in-out transform hover:scale-105">
               <CardHeader>
-                <CardTitle>Vulnerability Assessment</CardTitle>
+                <CardTitle>IoT Malware Detection</CardTitle>
                 <CardDescription>
-                  Conducted a comprehensive vulnerability assessment for a client's web application, identifying and mitigating critical security flaws.
+                  IoT Malware Detection using Autoencoder, a type of deep learning model, for detecting malware in Internet of Things (IoT) devices. The algorithm is trained on network traffic data, learning to reconstruct 'normal' instances with the goal of identifying anomalous instances which can be indicative of malware activity.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <LaptopIcon className="h-6 w-6 text-primary" />
-                    <span className="text-sm font-medium text-muted-foreground">Web Application</span>
+                    <Image src="https://img.icons8.com/?size=100&id=rAGNbokDz2eq&format=png&color=000000" alt="Deep Learning Icon" className="h-6 w-6" />
+                    <span className="text-sm font-medium text-muted-foreground">Deep Learning</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CalendarDaysIcon className="h-6 w-6 text-primary" />
+                      <i class="bi bi-calendar4-week"></i>
                     <span className="text-sm font-medium text-muted-foreground">2022</span>
                   </div>
                 </div>
