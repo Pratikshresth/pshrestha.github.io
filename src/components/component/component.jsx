@@ -108,7 +108,7 @@ export function Component() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center justify-between" onclick="window.open('https://github.com/Pratikshresth/IoT-Malware-Detection-Deep_learning', '_blank')">
+                <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <Image src="https://img.icons8.com/?size=100&id=rAGNbokDz2eq&format=png&color=000000" alt="Deep Learning Icon" className="h-6 w-6" />
                     <span className="text-sm font-medium text-muted-foreground">Deep Learning</span>
@@ -128,7 +128,7 @@ export function Component() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="flex items-center justify-between" onclick="window.open('https://github.com/Pratikshresth/Intrusion_Detection_RF', '_blank')">
+                <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <Image src="https://img.icons8.com/?size=100&id=16650&format=png&color=000000" alt="ID Icon" className="h-6 w-6" />
                     <span className="text-sm font-medium text-muted-foreground">Machine Learning</span>
@@ -142,19 +142,19 @@ export function Component() {
             </Card>
             <Card className="transition-transform duration-500 ease-in-out transform hover:scale-105">
               <CardHeader>
-                <CardTitle>Incident Response</CardTitle>
+                <CardTitle>SOFTMESH</CardTitle>
                 <CardDescription>
-                  Developed and implemented an effective incident response plan for a client, enabling them to quickly detect, contain, and mitigate security incidents.
+                  An infrastructure-less emergency communication system for commuication, rescue and evecuation during the event of disasters. The development was done in Heltec Lora 32 borard and TTGO TBEAM v1.1 Lora 32.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between" onclick="window.open('https://github.com/Pratikshresth/IoT-Malware-Detection-Deep_learning', '_blank')">
                   <div className="flex items-center gap-2">
-                    <ShieldIcon className="h-6 w-6 text-primary" />
-                    <span className="text-sm font-medium text-muted-foreground">SoftMesh</span>
+                    <Image src="https://img.icons8.com/?size=100&id=3691&format=png&color=000000" alt="ID Icon" className="h-6 w-6" />
+                    <span className="text-sm font-medium text-muted-foreground">C++, ESP32, LoRa</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CalendarDaysIcon className="h-6 w-6 text-primary" />
+                    <i class="bi bi-calendar4-week"></i>
                     <span className="text-sm font-medium text-muted-foreground">2020</span>
                   </div>
                 </div>
