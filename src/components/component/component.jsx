@@ -209,6 +209,7 @@ export function Component() {
           <p className="mt-4 text-muted-foreground transition-transform duration-500 ease-in-out transform hover:-translate-y-1">
             Different Awards of Pratik Shrestha
           </p>
+          
           <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
             <div className="rounded-lg bg-muted p-4 text-center transition-transform duration-500 ease-in-out transform hover:scale-105">
               <i className="bi bi-award award-size opacity-90"></i>
@@ -217,7 +218,7 @@ export function Component() {
                 Awarded by The Russell Group, United Kingdom
               </p>
             </div>
-          <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
+            
             <div className="rounded-lg bg-muted p-4 text-center transition-transform duration-500 ease-in-out transform hover:scale-105">
               <i className="bi bi-award award-size opacity-90"></i>
               <h3 className="mt-2 text-sm font-medium text-foreground">Research Scholarship</h3>
