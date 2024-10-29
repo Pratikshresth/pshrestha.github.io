@@ -212,6 +212,14 @@ export function Component() {
           <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
             <div className="rounded-lg bg-muted p-4 text-center transition-transform duration-500 ease-in-out transform hover:scale-105">
               <i className="bi bi-award award-size opacity-90"></i>
+              <h3 className="mt-2 text-sm font-medium text-foreground">PhD Studentship</h3>
+              <p className="mt-1 text-xs text-muted-foreground">
+                Awarded by The Russell Group, United Kingdom
+              </p>
+            </div>
+          <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
+            <div className="rounded-lg bg-muted p-4 text-center transition-transform duration-500 ease-in-out transform hover:scale-105">
+              <i className="bi bi-award award-size opacity-90"></i>
               <h3 className="mt-2 text-sm font-medium text-foreground">Research Scholarship</h3>
               <p className="mt-1 text-xs text-muted-foreground">
                 Awarded by University of Ottawa, Ottawa, Canada
